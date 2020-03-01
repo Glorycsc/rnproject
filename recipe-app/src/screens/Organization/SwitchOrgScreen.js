@@ -4,9 +4,10 @@ import {
     Text,
     View,
     Image,
-    TouchableHighlight
+    TouchableHighlight,
 } from 'react-native';
 import styles from './styles';
+import {Button} from "@ant-design/react-native";
 import {ListItem, SearchBar} from 'react-native-elements';
 import MenuImage from '../../components/MenuImage/MenuImage';
 import {
@@ -21,8 +22,7 @@ export default class SwitchOrgScreen extends React.Component {
         const {params = {}} = navigation.state;
         return {
             headerRight: (
-                <Text style={{fontSize:16,color:'blue'}}>    完成    </Text>
-
+                <Button style={{color:'cyan'}}>完成</Button>
             ),
             headerTitle: (
                 <Text style={{fontSize:20}}>切换组织</Text>
