@@ -16,6 +16,7 @@ export default class MenuImage extends React.Component {
   }
 }
 
+//定义点击方法
 MenuImage.propTypes = {
   onPress: PropTypes.func
 };

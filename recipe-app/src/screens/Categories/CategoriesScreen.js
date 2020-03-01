@@ -4,7 +4,8 @@ import {
   Text,
   View,
   Image,
-  TouchableHighlight
+  TouchableHighlight,
+  Alert,
 } from 'react-native';
 import styles from './styles';
 import { categories } from '../../data/dataArrays';
@@ -21,6 +22,13 @@ export default class CategoriesScreen extends React.Component {
           navigation.openDrawer();
         }}
       />
+    ),
+    headerRight: (
+        <MenuImage
+            onPress={() => {
+              Alert.alert('筛选条件');
+            }}
+        />
     )
   });
 
