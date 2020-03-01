@@ -14,7 +14,7 @@
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/icons/icon_abb.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },

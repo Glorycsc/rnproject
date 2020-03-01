@@ -10,6 +10,14 @@ export default class DrawerContainer extends React.Component {
     return (
       <View style={styles.content}>
         <View style={styles.container}>
+            <MenuButton
+                title="ABB LOGIN"
+                source={require('../../../assets/icons/home.png')}
+                onPress={() => {
+                    navigation.navigate('Login');
+                    navigation.closeDrawer();
+                }}
+            />
           <MenuButton
             title="CATEGORIES"
             source={require('../../../assets/icons/category.png')}

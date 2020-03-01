@@ -20,6 +20,7 @@ export default class MenuButton extends React.Component {
   }
 }
 
+//定义参数(配置项)
 MenuButton.propTypes = {
   onPress: PropTypes.func,
   source: PropTypes.number,

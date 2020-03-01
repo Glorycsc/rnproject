@@ -7,12 +7,14 @@ import DrawerContainer from '../screens/DrawerContainer/DrawerContainer';
 import IngredientScreen from '../screens/Ingredient/IngredientScreen';
 import SearchScreen from '../screens/Search/SearchScreen';
 import IngredientsDetailsScreen from '../screens/IngredientsDetails/IngredientsDetailsScreen';
+import LoginScreen from "../screens/Login/LoginScreen";
 
 const MainNavigator = createStackNavigator(
   {
     Categories: CategoriesScreen,
     Recipes: RecipesScreen,
-    Recipe: RecipeScreen,
+    Recipe: RecipeScreen, //食谱
+    Login: LoginScreen, //食谱
     RecipesList: RecipesListScreen,
     Ingredient: IngredientScreen,
     Search: SearchScreen,
